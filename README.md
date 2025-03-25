@@ -13,6 +13,10 @@ A Node.js application for processing data using Large Language Models (LLM).
 - It will always spin up 4 thread workers.
 - Chosen LLM model `gpt-4o-mini` assuming that minor accuracy trade-offs in edge cases are acceptable due to the cost efficency which in production environment where millions of entries would be proccessed might be important - if not switch model in the code to `gpt-4o` 
 
+### What could be upgraded? 
+For production environment it would be wise to upgrade script to respect rate limits from headers which we are receiving from OpenAI API.
+
+
 ## Getting Started
 
 ### 1. Start the Redis
