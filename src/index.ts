@@ -36,9 +36,6 @@ async function reconcileLists(list1File: string, list2File: string): Promise<voi
         loadJSONStream(list2File),
     ]);
 
-    console.log(`list1: `, list1)
-    console.log(`list2: `, list2)
-
     console.info(`Loaded ${list1.length} list1 and ${list2.length} list2`);
 
     const report: ReportEntry[] = [];
@@ -50,8 +47,6 @@ async function reconcileLists(list1File: string, list2File: string): Promise<voi
         batches.push(list1.slice(i, i + CONFIG.BATCH_SIZE));
     }
 
-
-    console.log(`CONFIG: `, CONFIG)
     // Worker pool
     const workerPromises: Promise<void>[] = [];
     for (let i = 0; i < CONFIG.NUM_WORKERS; i++) {

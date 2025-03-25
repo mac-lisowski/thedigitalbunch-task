@@ -1,5 +1,5 @@
 import { parentPort, workerData } from 'worker_threads';
-import axios from 'axios';
+import { OpenAI } from 'openai';
 import { createClient } from 'redis';
 import { CONFIG } from './config.js';
 import type { Property, ReportEntry, WorkerResult, MatchResult } from './types.js';
@@ -9,6 +9,11 @@ import { MatchStatus } from './types.js';
 const redisClient = createClient({ url: CONFIG.REDIS_URL });
 redisClient.on('error', (err) => console.error('Redis error:', err));
 await redisClient.connect();
+
+// Initialize OpenAI client
+const openai = new OpenAI({
+    apiKey: CONFIG.OPENAI_API_KEY,
+});
 
 // Normalize monetary values
 function normalizeMoney(value: string): number {
@@ -44,20 +49,16 @@ async function isComparableBatch(pairs: [string, string][]): Promise<MatchResult
         .join('\n') + '\n\nFormat your response as a numbered list matching the input order.';
 
     try {
-        const response = await axios.post(
-            CONFIG.API_URL,
-            {
-                model: CONFIG.MODEL, // GPT-4o-mini
-                messages: [{ role: 'user', content: prompt }],
-                max_tokens: 500,
-                temperature: 0.5,
-            },
-            { headers: { Authorization: `Bearer ${CONFIG.OPENAI_API_KEY}`, 'Content-Type': 'application/json' } }
-        );
+        const response = await openai.chat.completions.create({
+            model: CONFIG.MODEL, // GPT-4o-mini
+            messages: [{ role: 'user', content: prompt }],
+            max_tokens: 500,
+            temperature: 0.5,
+        });
 
-        console.log(`response: `, response)
+        console.log(`Response received from OpenAI API`);
 
-        const text = response.data.choices[0].message.content;
+        const text = response.choices[0].message.content || '';
         const lines = text.split('\n').filter((line: string) => line.match(/^\d+\./));
         const newResults = lines.map((line: string) => {
             const match = line.toLowerCase().includes('yes');
