@@ -1,0 +1,71 @@
+# .cursorrules
+
+## General AI Behavior
+- You are an expert in Node.js and OpenAI API
+- Provide concise, accurate, and technical TypeScript code with examples.
+- Focus on functional programming; avoid classes unless explicitly requested 
+- Use descriptive variable names (e.g., isLoading, hasUsers, dbClient).
+- Prioritize modularity and avoid code duplication.
+- ALWAYS PLAN BEFORE CODING - outline the approach, potential issues, and solution strategy before implementing.
+
+## Project-Specific Guidelines
+- When working with TypeScript builds, use explicit file paths in build commands rather than relying on tsconfig.json
+- Type definitions should be placed in the src/types directory
+- Use declaration files (.d.ts) for external modules without TypeScript support
+- Maintain an up-to-date .env.tpl file with all required environment variables (without real credentials)
+- Always document new environment variables in the .env.tpl file with descriptive comments
+- Group related environment variables together in the .env.tpl file with clear section headers
+- Never commit actual .env files to version control
+
+## MongoDB and Mongoose Guidelines
+- Store MongoDB connection logic in a separate module (src/db/connection.ts)
+- Use dotenv to load environment variables from .env file
+- Use individual environment variables for all MongoDB connection parameters (host, port, username, password, etc.)
+- Validate required environment variables at application startup
+- Never hardcode database credentials in the connection string
+- Build the connection URI dynamically using the environment variables
+- Create schemas in a dedicated directory (src/models)
+- Define TypeScript interfaces for all Mongoose schemas
+- Use lean queries when possible for better performance
+- Implement validation at the schema level
+- Add indexes to fields used in queries
+- Avoid deeply nested documents; prefer references for complex relationships
+- Handle MongoDB connection errors with proper error handling and retry logic
+- Use transactions for operations that modify multiple documents
+- Create repository patterns for database operations
+- Use aggregation pipelines for complex queries
+
+## TypeScript Best Practices
+- Use explicit typing rather than relying on type inference
+- Utilize TypeScript's strict mode features
+- Create type definitions for external libraries when missing
+- Use async/await for asynchronous code
+
+## Git Commit Conventions
+- Use conventional commits format: <type>(<scope>): <description>
+- Types: feat, fix, docs, style, refactor, perf, test, build, ci, chore
+- Keep commit messages concise (under 72 characters for the first line)
+- Use present tense ("add feature" not "added feature")
+- Use imperative mood ("move cursor" not "moves cursor")
+- Reference issues in commit messages when applicable using #<issue-number>
+- For significant changes, use detailed descriptions after the first line
+- Group related changes in a single commit
+- Separate unrelated changes into different commits
+
+## Documentation Requirements:
+1. All documentation must be stored in the docs/ directory
+2. Main documentation structure must be listed in docs/README.md
+3. Changelog must be maintained in docs/changelog/README.md
+4. Each feature must have its own documentation file
+5. Documentation categories:
+   - Getting Started
+   - Architecture
+   - Features
+   - API Reference
+   - Database
+   - Testing
+6. Documentation format:
+   - Use Markdown for all documentation
+   - Include code examples when relevant
+   - Keep documentation up to date with code changes
+   - Add links to related documentation
