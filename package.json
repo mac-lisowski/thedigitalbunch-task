@@ -22,6 +22,7 @@
     "@types/json-stream": "^1.0.3",
     "@types/node": "^22.13.13",
     "@types/redis": "^4.0.10",
+    "@types/stream-json": "^1.7.8",
     "@typescript-eslint/eslint-plugin": "^7.3.1",
     "@typescript-eslint/parser": "^7.3.1",
     "eslint": "^8.57.0",
@@ -41,8 +42,8 @@
     "axios": "^1.8.4",
     "csv-writer": "^1.6.0",
     "dotenv": "^16.4.7",
-    "json-stream": "^1.0.0",
     "mongoose": "^8.13.0",
-    "redis": "^4.7.0"
+    "redis": "^4.7.0",
+    "stream-json": "^1.9.1"
   }
 }
