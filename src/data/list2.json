@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:92951c61e5a67ede43c79441b0dc5a7c5a20af4b470f351c9238c53cc6712277
-size 11455
+[
+,
+{
+  "description": "Apartment Building Complex",
+  "limit": "5567467",
+  "mortgageAmount": "3788930"
+}
+]

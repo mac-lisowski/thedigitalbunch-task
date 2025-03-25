@@ -14,3 +14,6 @@ PORT=5173 # Port on which the Express server will run
 
 # Logging
 LOG_LEVEL=info 
+
+# OpenAI API Key
+OPENAI_API_KEY=sk-proj-1234567890

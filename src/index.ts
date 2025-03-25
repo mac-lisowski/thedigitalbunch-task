@@ -1,1 +1,1 @@
-console.log("Hello World");
+console.log("Hello World: ", process.env.OPENAI_API_KEY);

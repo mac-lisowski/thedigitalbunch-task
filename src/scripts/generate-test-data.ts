@@ -1,7 +1,7 @@
-import * as fs from 'fs';
-import * as path from 'path';
-// Fix faker import issue
-const faker = require('faker');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { faker } from '@faker-js/faker';
 
 // Install: npm install faker @types/faker
 
@@ -38,24 +38,24 @@ const numberFormats: ((n: number) => string)[] = [
     (n: number) => `${n}`,                   // "1200000"
     (n: number) => `${(n / 1000000)}M`,      // "1.2M"
     (n: number) => `${(n / 1000)}K`,         // "1200K"
-    (n: number) => `${faker.random.arrayElement(['One', 'Two', 'Three', 'Four'])} ${n >= 1000000 ? 'million' : 'hundred thousand'} Dollars`
+    (n: number) => `${faker.helpers.arrayElement(['One', 'Two', 'Three', 'Four'])} ${n >= 1000000 ? 'million' : 'hundred thousand'} Dollars`
 ];
 
 // Generate a property
 function generateProperty(template: PropertyTemplate, isList1 = true): Property {
-    const beds = faker.datatype.number({ min: 1, max: 5 });
-    const baths = faker.datatype.number({ min: 1, max: 3 });
+    const beds = faker.number.int({ min: 1, max: 5 });
+    const baths = faker.number.int({ min: 1, max: 3 });
     const desc = isList1 ? template.base : template.alt;
-    const limit = faker.datatype.number({ min: 300000, max: 6000000 });
-    const mortgage = Math.floor(limit * faker.datatype.float({ min: 0.6, max: 0.9 })); // 60-90% of limit
+    const limit = faker.number.int({ min: 300000, max: 6000000 });
+    const mortgage = Math.floor(limit * faker.number.float({ min: 0.6, max: 0.9 })); // 60-90% of limit
 
     return {
         description: desc
             .replace('{beds}', beds.toString())
             .replace('{baths}', baths.toString())
             .replace('  ', ' '),
-        limit: faker.random.arrayElement(numberFormats)(limit),
-        mortgageAmount: faker.random.arrayElement(numberFormats)(mortgage)
+        limit: faker.helpers.arrayElement(numberFormats)(limit),
+        mortgageAmount: faker.helpers.arrayElement(numberFormats)(mortgage)
     };
 }
 
@@ -63,8 +63,8 @@ function generateProperty(template: PropertyTemplate, isList1 = true): Property 
 function generateMatchingProperty(template: PropertyTemplate, baseProp: Property): Property {
     const limitBase = parseFloat(baseProp.limit.replace(/[^0-9.]/g, '')) * (baseProp.limit.includes('M') ? 1000000 : baseProp.limit.includes('K') ? 1000 : 1);
     const mortgageBase = parseFloat(baseProp.mortgageAmount.replace(/[^0-9.]/g, '')) * (baseProp.mortgageAmount.includes('M') ? 1000000 : baseProp.mortgageAmount.includes('K') ? 1000 : 1);
-    const limitVariation = faker.random.arrayElement([0, faker.datatype.number({ min: 50000, max: 200000 })]); // 0 for Match, else Similar Match
-    const mortgageVariation = faker.random.arrayElement([0, faker.datatype.number({ min: 25000, max: 100000 })]);
+    const limitVariation = faker.helpers.arrayElement([0, faker.number.int({ min: 50000, max: 200000 })]); // 0 for Match, else Similar Match
+    const mortgageVariation = faker.helpers.arrayElement([0, faker.number.int({ min: 25000, max: 100000 })]);
 
     const bedsMatch = baseProp.description.match(/\d+/);
     const bathsMatch = baseProp.description.match(/\d+/g);
@@ -74,8 +74,8 @@ function generateMatchingProperty(template: PropertyTemplate, baseProp: Property
             .replace('{beds}', bedsMatch?.[0] || '3')
             .replace('{baths}', (bathsMatch && bathsMatch.length > 1) ? bathsMatch[1] : '2')
             .replace('  ', ' '),
-        limit: faker.random.arrayElement(numberFormats)(limitBase + limitVariation),
-        mortgageAmount: faker.random.arrayElement(numberFormats)(mortgageBase + mortgageVariation)
+        limit: faker.helpers.arrayElement(numberFormats)(limitBase + limitVariation),
+        mortgageAmount: faker.helpers.arrayElement(numberFormats)(mortgageBase + mortgageVariation)
     };
 }
 
@@ -86,7 +86,7 @@ function writeLargeJsonFile(filePath: string, totalEntries: number, generateFn: 
 
     let first = true;
     for (let i = 0; i < totalEntries; i++) {
-        const template = faker.random.arrayElement(propertyTemplates);
+        const template = faker.helpers.arrayElement(propertyTemplates);
         const entry = generateFn(template, i);
         stream.write((first ? '' : ',\n') + JSON.stringify(entry, null, 2));
         first = false;
@@ -107,7 +107,7 @@ function generatePairedLargeJsonFiles(list1Path: string, list2Path: string, tota
     const unmatchedList2: Property[] = [];
 
     for (let i = 0; i < totalEntries; i++) {
-        const template = faker.random.arrayElement(propertyTemplates);
+        const template = faker.helpers.arrayElement(propertyTemplates);
         const shouldMatch = Math.random() < matchPercentage;
 
         if (shouldMatch) {
@@ -126,7 +126,7 @@ function generatePairedLargeJsonFiles(list1Path: string, list2Path: string, tota
 
     // Add unmatched entries to list2 to balance counts
     for (let i = unmatchedList2.length; i < totalEntries - Math.floor(totalEntries * matchPercentage); i++) {
-        const template = faker.random.arrayElement(propertyTemplates);
+        const template = faker.helpers.arrayElement(propertyTemplates);
         unmatchedList2.push(generateProperty(template, false));
     }
     unmatchedList2.slice(0, totalEntries - Math.floor(totalEntries * matchPercentage)).forEach(p => {
@@ -140,7 +140,10 @@ function generatePairedLargeJsonFiles(list1Path: string, list2Path: string, tota
 }
 
 // Ensure the data directory exists
-const dataDir = path.resolve(__dirname, '../../src/data');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const dataDir = path.resolve(__dirname, '../data');
+
 if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
 }
