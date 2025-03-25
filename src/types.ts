@@ -25,4 +25,11 @@ export interface WorkerResult {
 export interface MatchResult {
     match: boolean;
     details: string;
+    confidencePercentage?: number; // Percentage of confidence in the match (0-100)
+}
+
+export interface BatchComparisonRequest {
+    list1Items: Property[];
+    list2Candidates: Map<string, Property[]>;
+    exactMatches: Map<string, Property[]>;
 }
