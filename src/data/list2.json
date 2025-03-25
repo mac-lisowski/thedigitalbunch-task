@@ -1,8 +1,477 @@
 [
-,
+{
+  "description": "Downtown Office Complex",
+  "limit": "1450970",
+  "mortgageAmount": "Two hundred thousand Dollars"
+},
+{
+  "description": "Downtown Office Complex",
+  "limit": "Three hundred thousand Dollars",
+  "mortgageAmount": "NaN"
+},
 {
   "description": "Apartment Building Complex",
-  "limit": "5567467",
-  "mortgageAmount": "3788930"
+  "limit": "3781823",
+  "mortgageAmount": "2453017"
+},
+{
+  "description": "Retail Storefront with Warehouse",
+  "limit": "Four hundred thousand Dollars",
+  "mortgageAmount": "$NaN"
+},
+{
+  "description": "Parks and Playground Areas",
+  "limit": "5.534903M",
+  "mortgageAmount": "Three million Dollars"
+},
+{
+  "description": "Vintage Dining Establishment",
+  "limit": "5.020787M",
+  "mortgageAmount": "$4138421"
+},
+{
+  "description": "Parks and Playground Areas",
+  "limit": "NaNK",
+  "mortgageAmount": "Two million Dollars"
+},
+{
+  "description": "Vintage Dining Establishment",
+  "limit": "Two million Dollars",
+  "mortgageAmount": "Four million Dollars"
+},
+{
+  "description": "Large Storage Facility",
+  "limit": "Three hundred thousand Dollars",
+  "mortgageAmount": "2.593418M"
+},
+{
+  "description": "Large Storage Facility",
+  "limit": "2387123",
+  "mortgageAmount": "1.970082M"
+},
+{
+  "description": "Downtown Office Complex",
+  "limit": "2.413222M",
+  "mortgageAmount": "1.857754M"
+},
+{
+  "description": "Parks and Playground Areas",
+  "limit": "One million Dollars",
+  "mortgageAmount": "1839986"
+},
+{
+  "description": "Coastal Boating Center",
+  "limit": "1598.261K",
+  "mortgageAmount": "1212708"
+},
+{
+  "description": "Single Family Residence - 4BR/3BA",
+  "limit": "5.36707M",
+  "mortgageAmount": "3567122"
+},
+{
+  "description": "Downtown Office Complex",
+  "limit": "5998529",
+  "mortgageAmount": "One million Dollars"
+},
+{
+  "description": "Vintage Dining Establishment",
+  "limit": "Four hundred thousand Dollars",
+  "mortgageAmount": "Three million Dollars"
+},
+{
+  "description": "Single Family Residence - 3BR/2BA",
+  "limit": "5.90626M",
+  "mortgageAmount": "NaNK"
+},
+{
+  "description": "Healthcare Office Space",
+  "limit": "Three hundred thousand Dollars",
+  "mortgageAmount": "2.000991M"
+},
+{
+  "description": "Single Family Residence - 5BR/3BA",
+  "limit": "Two hundred thousand Dollars",
+  "mortgageAmount": "Four hundred thousand Dollars"
+},
+{
+  "description": "Large Storage Facility",
+  "limit": "3660.251K",
+  "mortgageAmount": "Three hundred thousand Dollars"
+},
+{
+  "description": "Downtown Office Complex",
+  "limit": "3742.08K",
+  "mortgageAmount": "2703488"
+},
+{
+  "description": "Large Storage Facility",
+  "limit": "$2912394",
+  "mortgageAmount": "$2059716"
+},
+{
+  "description": "Downtown Office Complex",
+  "limit": "One hundred thousand Dollars",
+  "mortgageAmount": "$NaN"
+},
+{
+  "description": "Retail Shopping Center",
+  "limit": "NaNK",
+  "mortgageAmount": "$994797"
+},
+{
+  "description": "Vintage Dining Establishment",
+  "limit": "5643310",
+  "mortgageAmount": "One million Dollars"
+},
+{
+  "description": "Large Storage Facility",
+  "limit": "Two million Dollars",
+  "mortgageAmount": "$NaN"
+},
+{
+  "description": "Coastal Boating Center",
+  "limit": "$5118012",
+  "mortgageAmount": "4.231748M"
+},
+{
+  "description": "Single Family Residence - 5BR/2BA",
+  "limit": "1.027743M",
+  "mortgageAmount": "NaNK"
+},
+{
+  "description": "Beachfront Holiday Property",
+  "limit": "$4072763",
+  "mortgageAmount": "3.136782M"
+},
+{
+  "description": "Parks and Playground Areas",
+  "limit": "NaN",
+  "mortgageAmount": "$NaN"
+},
+{
+  "description": "Coastal Boating Center",
+  "limit": "3.493466M",
+  "mortgageAmount": "2513.344K"
+},
+{
+  "description": "Retail Storefront with Warehouse",
+  "limit": "One million Dollars",
+  "mortgageAmount": "3485.081K"
+},
+{
+  "description": "Large Storage Facility",
+  "limit": "One million Dollars",
+  "mortgageAmount": "1073.218K"
+},
+{
+  "description": "Healthcare Office Space",
+  "limit": "Three million Dollars",
+  "mortgageAmount": "4.241041M"
+},
+{
+  "description": "Vintage Dining Establishment",
+  "limit": "$NaN",
+  "mortgageAmount": "1692116"
+},
+{
+  "description": "Beachfront Holiday Property",
+  "limit": "2.160364M",
+  "mortgageAmount": "1.651237M"
+},
+{
+  "description": "Healthcare Office Space",
+  "limit": "NaNK",
+  "mortgageAmount": "1813.283K"
+},
+{
+  "description": "Healthcare Office Space",
+  "limit": "1979.83K",
+  "mortgageAmount": "Two million Dollars"
+},
+{
+  "description": "Large Storage Facility",
+  "limit": "$2021909",
+  "mortgageAmount": "1.766182M"
+},
+{
+  "description": "Retail Storefront with Warehouse",
+  "limit": "$3805505",
+  "mortgageAmount": "Three hundred thousand Dollars"
+},
+{
+  "description": "Coastal Boating Center",
+  "limit": "3807.81K",
+  "mortgageAmount": "3252.024K"
+},
+{
+  "description": "Parks and Playground Areas",
+  "limit": "Three hundred thousand Dollars",
+  "mortgageAmount": "Four hundred thousand Dollars"
+},
+{
+  "description": "Apartment Building Complex",
+  "limit": "5.612607M",
+  "mortgageAmount": "4.659714M"
+},
+{
+  "description": "Retail Shopping Center",
+  "limit": "One hundred thousand Dollars",
+  "mortgageAmount": "3.035838M"
+},
+{
+  "description": "Beachfront Holiday Property",
+  "limit": "$NaN",
+  "mortgageAmount": "$NaN"
+},
+{
+  "description": "Single Family Residence - 2BR/3BA",
+  "limit": "5826860",
+  "mortgageAmount": "$NaN"
+},
+{
+  "description": "Large Storage Facility",
+  "limit": "$1191107",
+  "mortgageAmount": "841.564K"
+},
+{
+  "description": "Country Club Pavilion",
+  "limit": "NaN",
+  "mortgageAmount": "4.062994M"
+},
+{
+  "description": "Downtown Office Complex",
+  "limit": "$3715433",
+  "mortgageAmount": "2599316"
+},
+{
+  "description": "Country Club Pavilion",
+  "limit": "513.738K",
+  "mortgageAmount": "$389719"
+},
+{
+  "description": "Apartment Building Complex",
+  "limit": "1162702",
+  "mortgageAmount": "Four hundred thousand Dollars"
+},
+{
+  "description": "Healthcare Office Space",
+  "limit": "4317.886K",
+  "mortgageAmount": "2894701"
+},
+{
+  "description": "Retail Shopping Center",
+  "limit": "1.862836M",
+  "mortgageAmount": "1.505542M"
+},
+{
+  "description": "Country Club Pavilion",
+  "limit": "5983.54K",
+  "mortgageAmount": "Two million Dollars"
+},
+{
+  "description": "Healthcare Office Space",
+  "limit": "480871",
+  "mortgageAmount": "360743"
+},
+{
+  "description": "Large Storage Facility",
+  "limit": "2610699",
+  "mortgageAmount": "1634.223K"
+},
+{
+  "description": "Large Storage Facility",
+  "limit": "3560.685K",
+  "mortgageAmount": "One million Dollars"
+},
+{
+  "description": "Apartment Building Complex",
+  "limit": "4844.09K",
+  "mortgageAmount": "NaN"
+},
+{
+  "description": "Apartment Building Complex",
+  "limit": "$5624223",
+  "mortgageAmount": "One million Dollars"
+},
+{
+  "description": "Large Storage Facility",
+  "limit": "$NaN",
+  "mortgageAmount": "NaN"
+},
+{
+  "description": "Large Storage Facility",
+  "limit": "NaNM",
+  "mortgageAmount": "Four hundred thousand Dollars"
+},
+{
+  "description": "Beachfront Holiday Property",
+  "limit": "2.298285M",
+  "mortgageAmount": "1.790766M"
+},
+{
+  "description": "Downtown Office Complex",
+  "limit": "Four million Dollars",
+  "mortgageAmount": "4.18135M"
+},
+{
+  "description": "Retail Storefront with Warehouse",
+  "limit": "$5894485",
+  "mortgageAmount": "Four million Dollars"
+},
+{
+  "description": "Retail Shopping Center",
+  "limit": "2260632",
+  "mortgageAmount": "1524473"
+},
+{
+  "description": "Parks and Playground Areas",
+  "limit": "$1376233",
+  "mortgageAmount": "1115885"
+},
+{
+  "description": "Coastal Boating Center",
+  "limit": "4442548",
+  "mortgageAmount": "2693462"
+},
+{
+  "description": "Retail Storefront with Warehouse",
+  "limit": "2103743",
+  "mortgageAmount": "1348901"
+},
+{
+  "description": "Retail Shopping Center",
+  "limit": "2635179",
+  "mortgageAmount": "1.84079M"
+},
+{
+  "description": "Country Club Pavilion",
+  "limit": "3745802",
+  "mortgageAmount": "One million Dollars"
+},
+{
+  "description": "Parks and Playground Areas",
+  "limit": "4144498",
+  "mortgageAmount": "3524.98K"
+},
+{
+  "description": "Single Family Residence - 5BR/3BA",
+  "limit": "$5641466",
+  "mortgageAmount": "4828.797K"
+},
+{
+  "description": "Retail Storefront with Warehouse",
+  "limit": "2.613116M",
+  "mortgageAmount": "2293.576K"
+},
+{
+  "description": "Large Storage Facility",
+  "limit": "2628951",
+  "mortgageAmount": "2.116767M"
+},
+{
+  "description": "Vintage Dining Establishment",
+  "limit": "Four million Dollars",
+  "mortgageAmount": "1876.732K"
+},
+{
+  "description": "Parks and Playground Areas",
+  "limit": "0.535757M",
+  "mortgageAmount": "0.414861M"
+},
+{
+  "description": "Country Club Pavilion",
+  "limit": "3208632",
+  "mortgageAmount": "$2498598"
+},
+{
+  "description": "Coastal Boating Center",
+  "limit": "$410228",
+  "mortgageAmount": "$283987"
+},
+{
+  "description": "Retail Storefront with Warehouse",
+  "limit": "2.764373M",
+  "mortgageAmount": "1.810429M"
+},
+{
+  "description": "Retail Storefront with Warehouse",
+  "limit": "Three million Dollars",
+  "mortgageAmount": "4.111684M"
+},
+{
+  "description": "Large Storage Facility",
+  "limit": "$827723",
+  "mortgageAmount": "615.019K"
+},
+{
+  "description": "Healthcare Office Space",
+  "limit": "5810.871K",
+  "mortgageAmount": "4399636"
+},
+{
+  "description": "Beachfront Holiday Property",
+  "limit": "5.868726M",
+  "mortgageAmount": "4844437"
+},
+{
+  "description": "Vintage Dining Establishment",
+  "limit": "4.678848M",
+  "mortgageAmount": "Four million Dollars"
+},
+{
+  "description": "Apartment Building Complex",
+  "limit": "1856.102K",
+  "mortgageAmount": "$1383313"
+},
+{
+  "description": "Parks and Playground Areas",
+  "limit": "$1599231",
+  "mortgageAmount": "Two million Dollars"
+},
+{
+  "description": "Single Family Residence - 4BR/1BA",
+  "limit": "4154.078K",
+  "mortgageAmount": "3.48366M"
+},
+{
+  "description": "Retail Shopping Center",
+  "limit": "544.417K",
+  "mortgageAmount": "357.823K"
+},
+{
+  "description": "Coastal Boating Center",
+  "limit": "4.931332M",
+  "mortgageAmount": "$3246958"
+},
+{
+  "description": "Retail Shopping Center",
+  "limit": "Four million Dollars",
+  "mortgageAmount": "1360258"
+},
+{
+  "description": "Coastal Boating Center",
+  "limit": "1477.194K",
+  "mortgageAmount": "$1039726"
+},
+{
+  "description": "Downtown Office Complex",
+  "limit": "420689",
+  "mortgageAmount": "0.262731M"
+},
+{
+  "description": "Parks and Playground Areas",
+  "limit": "One million Dollars",
+  "mortgageAmount": "Three million Dollars"
+},
+{
+  "description": "Single Family Residence - 1BR/1BA",
+  "limit": "$4059355",
+  "mortgageAmount": "$2510969"
+},
+{
+  "description": "Apartment Building Complex",
+  "limit": "Three million Dollars",
+  "mortgageAmount": "$2248330"
 }
 ]

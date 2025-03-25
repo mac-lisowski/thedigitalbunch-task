@@ -1,7 +1,502 @@
 [
-  {
-    "description": "Multi-unit Residential Complex",
-    "limit": "4.81901M",
-    "mortgageAmount": "Three million Dollars"
-  }
+{
+  "description": "Downtown Commercial Office Space",
+  "limit": "$1450970",
+  "mortgageAmount": "0.922674M"
+},
+{
+  "description": "Downtown Commercial Office Space",
+  "limit": "Two million Dollars",
+  "mortgageAmount": "Two million Dollars"
+},
+{
+  "description": "Multi-unit Residential Complex",
+  "limit": "3678533",
+  "mortgageAmount": "$2453017"
+},
+{
+  "description": "Retail Store with Storage",
+  "limit": "$528712",
+  "mortgageAmount": "Three hundred thousand Dollars"
+},
+{
+  "description": "Gardens and Recreation Area",
+  "limit": "4.243152M",
+  "mortgageAmount": "2777654"
+},
+{
+  "description": "Gardens and Recreation Area",
+  "limit": "$5362756",
+  "mortgageAmount": "4057779"
+},
+{
+  "description": "Marina Facility",
+  "limit": "Two million Dollars",
+  "mortgageAmount": "Four million Dollars"
+},
+{
+  "description": "Historic Restaurant Building",
+  "limit": "4896074",
+  "mortgageAmount": "4089.131K"
+},
+{
+  "description": "Gardens and Recreation Area",
+  "limit": "One million Dollars",
+  "mortgageAmount": "2.028785M"
+},
+{
+  "description": "Retail Store with Storage",
+  "limit": "3898959",
+  "mortgageAmount": "$2845540"
+},
+{
+  "description": "Shopping Mall",
+  "limit": "4887.472K",
+  "mortgageAmount": "$3597450"
+},
+{
+  "description": "Historic Restaurant Building",
+  "limit": "4778.482K",
+  "mortgageAmount": "$4145614"
+},
+{
+  "description": "Industrial Warehouse",
+  "limit": "Three million Dollars",
+  "mortgageAmount": "2593418"
+},
+{
+  "description": "Industrial Warehouse",
+  "limit": "2387123",
+  "mortgageAmount": "1.907702M"
+},
+{
+  "description": "Downtown Commercial Office Space",
+  "limit": "2334.436K",
+  "mortgageAmount": "1763578"
+},
+{
+  "description": "Gardens and Recreation Area",
+  "limit": "2.36124M",
+  "mortgageAmount": "1.79297M"
+},
+{
+  "description": "Marina Facility",
+  "limit": "1598261",
+  "mortgageAmount": "$1212708"
+},
+{
+  "description": "Single Family Home with 4 bedrooms and 3 bathrooms",
+  "limit": "$5367070",
+  "mortgageAmount": "3567.122K"
+},
+{
+  "description": "Downtown Commercial Office Space",
+  "limit": "5998529",
+  "mortgageAmount": "$4657515"
+},
+{
+  "description": "Historic Restaurant Building",
+  "limit": "Two million Dollars",
+  "mortgageAmount": "2218.418K"
+},
+{
+  "description": "Single Family Home with 3 bedrooms and 2 bathrooms",
+  "limit": "5775.126K",
+  "mortgageAmount": "Two million Dollars"
+},
+{
+  "description": "Medical Office Building",
+  "limit": "One million Dollars",
+  "mortgageAmount": "1.971525M"
+},
+{
+  "description": "Golf Course Clubhouse",
+  "limit": "629293",
+  "mortgageAmount": "452894"
+},
+{
+  "description": "Single Family Home with 5 bedrooms and 3 bathrooms",
+  "limit": "0.470951M",
+  "mortgageAmount": "352816"
+},
+{
+  "description": "Industrial Warehouse",
+  "limit": "3530.734K",
+  "mortgageAmount": "One million Dollars"
+},
+{
+  "description": "Downtown Commercial Office Space",
+  "limit": "$3742080",
+  "mortgageAmount": "2703488"
+},
+{
+  "description": "Industrial Warehouse",
+  "limit": "$2912394",
+  "mortgageAmount": "2059716"
+},
+{
+  "description": "Gardens and Recreation Area",
+  "limit": "2741867",
+  "mortgageAmount": "2423856"
+},
+{
+  "description": "Downtown Commercial Office Space",
+  "limit": "Four million Dollars",
+  "mortgageAmount": "Two million Dollars"
+},
+{
+  "description": "Single Family Home with 4 bedrooms and 2 bathrooms",
+  "limit": "3825633",
+  "mortgageAmount": "One million Dollars"
+},
+{
+  "description": "Shopping Mall",
+  "limit": "Two million Dollars",
+  "mortgageAmount": "994.797K"
+},
+{
+  "description": "Historic Restaurant Building",
+  "limit": "5643310",
+  "mortgageAmount": "3935303"
+},
+{
+  "description": "Industrial Warehouse",
+  "limit": "$4754900",
+  "mortgageAmount": "Four million Dollars"
+},
+{
+  "description": "Retail Store with Storage",
+  "limit": "2.916297M",
+  "mortgageAmount": "Two million Dollars"
+},
+{
+  "description": "Industrial Warehouse",
+  "limit": "$3890030",
+  "mortgageAmount": "3123198"
+},
+{
+  "description": "Marina Facility",
+  "limit": "5118.012K",
+  "mortgageAmount": "4.231748M"
+},
+{
+  "description": "Single Family Home with 5 bedrooms and 2 bathrooms",
+  "limit": "1027743",
+  "mortgageAmount": "One hundred thousand Dollars"
+},
+{
+  "description": "Waterfront Vacation Property",
+  "limit": "4.072763M",
+  "mortgageAmount": "$3074850"
+},
+{
+  "description": "Gardens and Recreation Area",
+  "limit": "Two million Dollars",
+  "mortgageAmount": "Two million Dollars"
+},
+{
+  "description": "Historic Restaurant Building",
+  "limit": "5.952632M",
+  "mortgageAmount": "4500062"
+},
+{
+  "description": "Marina Facility",
+  "limit": "3.493466M",
+  "mortgageAmount": "2485.28K"
+},
+{
+  "description": "Retail Store with Storage",
+  "limit": "5.29282M",
+  "mortgageAmount": "3.418302M"
+},
+{
+  "description": "Gardens and Recreation Area",
+  "limit": "1377.797K",
+  "mortgageAmount": "$1146370"
+},
+{
+  "description": "Golf Course Clubhouse",
+  "limit": "Four million Dollars",
+  "mortgageAmount": "2970.945K"
+},
+{
+  "description": "Industrial Warehouse",
+  "limit": "1403536",
+  "mortgageAmount": "0.993797M"
+},
+{
+  "description": "Medical Office Building",
+  "limit": "5000175",
+  "mortgageAmount": "4241.041K"
+},
+{
+  "description": "Marina Facility",
+  "limit": "$5673682",
+  "mortgageAmount": "$3545831"
+},
+{
+  "description": "Retail Store with Storage",
+  "limit": "One million Dollars",
+  "mortgageAmount": "Four million Dollars"
+},
+{
+  "description": "Historic Restaurant Building",
+  "limit": "Three million Dollars",
+  "mortgageAmount": "$1692116"
+},
+{
+  "description": "Waterfront Vacation Property",
+  "limit": "2160.364K",
+  "mortgageAmount": "1563437"
+},
+{
+  "description": "Medical Office Building",
+  "limit": "Four million Dollars",
+  "mortgageAmount": "1.813283M"
+},
+{
+  "description": "Retail Store with Storage",
+  "limit": "4.694661M",
+  "mortgageAmount": "3773.943K"
+},
+{
+  "description": "Industrial Warehouse",
+  "limit": "5922259",
+  "mortgageAmount": "4238.616K"
+},
+{
+  "description": "Medical Office Building",
+  "limit": "3701.707K",
+  "mortgageAmount": "$2908668"
+},
+{
+  "description": "Waterfront Vacation Property",
+  "limit": "5430.78K",
+  "mortgageAmount": "Two million Dollars"
+},
+{
+  "description": "Medical Office Building",
+  "limit": "1979830",
+  "mortgageAmount": "$1518602"
+},
+{
+  "description": "Industrial Warehouse",
+  "limit": "1.944197M",
+  "mortgageAmount": "1670883"
+},
+{
+  "description": "Retail Store with Storage",
+  "limit": "$3616298",
+  "mortgageAmount": "One million Dollars"
+},
+{
+  "description": "Marina Facility",
+  "limit": "3807810",
+  "mortgageAmount": "3172.574K"
+},
+{
+  "description": "Gardens and Recreation Area",
+  "limit": "Four million Dollars",
+  "mortgageAmount": "One million Dollars"
+},
+{
+  "description": "Historic Restaurant Building",
+  "limit": "5671.91K",
+  "mortgageAmount": "$3548550"
+},
+{
+  "description": "Multi-unit Residential Complex",
+  "limit": "$5539158",
+  "mortgageAmount": "4659.714K"
+},
+{
+  "description": "Shopping Mall",
+  "limit": "One million Dollars",
+  "mortgageAmount": "3035.838K"
+},
+{
+  "description": "Waterfront Vacation Property",
+  "limit": "Three million Dollars",
+  "mortgageAmount": "Four million Dollars"
+},
+{
+  "description": "Single Family Home with 2 bedrooms and 3 bathrooms",
+  "limit": "$5634360",
+  "mortgageAmount": "Two million Dollars"
+},
+{
+  "description": "Industrial Warehouse",
+  "limit": "1042761",
+  "mortgageAmount": "0.759386M"
+},
+{
+  "description": "Multi-unit Residential Complex",
+  "limit": "5.714897M",
+  "mortgageAmount": "Four million Dollars"
+},
+{
+  "description": "Golf Course Clubhouse",
+  "limit": "Two million Dollars",
+  "mortgageAmount": "$4062994"
+},
+{
+  "description": "Downtown Commercial Office Space",
+  "limit": "$3715433",
+  "mortgageAmount": "2.599316M"
+},
+{
+  "description": "Golf Course Clubhouse",
+  "limit": "$513738",
+  "mortgageAmount": "$389719"
+},
+{
+  "description": "Multi-unit Residential Complex",
+  "limit": "1.052849M",
+  "mortgageAmount": "743595"
+},
+{
+  "description": "Gardens and Recreation Area",
+  "limit": "3.408508M",
+  "mortgageAmount": "Two million Dollars"
+},
+{
+  "description": "Medical Office Building",
+  "limit": "4.182586M",
+  "mortgageAmount": "2894.701K"
+},
+{
+  "description": "Single Family Home with 1 bedrooms and 1 bathrooms",
+  "limit": "3931395",
+  "mortgageAmount": "2361.022K"
+},
+{
+  "description": "Shopping Mall",
+  "limit": "1714631",
+  "mortgageAmount": "1405.833K"
+},
+{
+  "description": "Shopping Mall",
+  "limit": "3068557",
+  "mortgageAmount": "1989.451K"
+},
+{
+  "description": "Golf Course Clubhouse",
+  "limit": "$5907224",
+  "mortgageAmount": "5027.965K"
+},
+{
+  "description": "Marina Facility",
+  "limit": "1759.998K",
+  "mortgageAmount": "1.128057M"
+},
+{
+  "description": "Shopping Mall",
+  "limit": "Three million Dollars",
+  "mortgageAmount": "$3495995"
+},
+{
+  "description": "Medical Office Building",
+  "limit": "347035",
+  "mortgageAmount": "281392"
+},
+{
+  "description": "Marina Facility",
+  "limit": "2465676",
+  "mortgageAmount": "Two million Dollars"
+},
+{
+  "description": "Industrial Warehouse",
+  "limit": "2610699",
+  "mortgageAmount": "1634.223K"
+},
+{
+  "description": "Industrial Warehouse",
+  "limit": "$3396849",
+  "mortgageAmount": "2524810"
+},
+{
+  "description": "Downtown Commercial Office Space",
+  "limit": "2720600",
+  "mortgageAmount": "2237765"
+},
+{
+  "description": "Multi-unit Residential Complex",
+  "limit": "4844090",
+  "mortgageAmount": "One million Dollars"
+},
+{
+  "description": "Gardens and Recreation Area",
+  "limit": "1752230",
+  "mortgageAmount": "1412809"
+},
+{
+  "description": "Single Family Home with 2 bedrooms and 2 bathrooms",
+  "limit": "Three million Dollars",
+  "mortgageAmount": "$4182825"
+},
+{
+  "description": "Multi-unit Residential Complex",
+  "limit": "$4050419",
+  "mortgageAmount": "3.498329M"
+},
+{
+  "description": "Multi-unit Residential Complex",
+  "limit": "5536.261K",
+  "mortgageAmount": "3877.015K"
+},
+{
+  "description": "Downtown Commercial Office Space",
+  "limit": "1117085",
+  "mortgageAmount": "705.54K"
+},
+{
+  "description": "Industrial Warehouse",
+  "limit": "1469.013K",
+  "mortgageAmount": "$939729"
+},
+{
+  "description": "Industrial Warehouse",
+  "limit": "One million Dollars",
+  "mortgageAmount": "One million Dollars"
+},
+{
+  "description": "Industrial Warehouse",
+  "limit": "Four million Dollars",
+  "mortgageAmount": "Four million Dollars"
+},
+{
+  "description": "Waterfront Vacation Property",
+  "limit": "2298285",
+  "mortgageAmount": "1.790766M"
+},
+{
+  "description": "Waterfront Vacation Property",
+  "limit": "Two million Dollars",
+  "mortgageAmount": "Four million Dollars"
+},
+{
+  "description": "Gardens and Recreation Area",
+  "limit": "$4591785",
+  "mortgageAmount": "3.922091M"
+},
+{
+  "description": "Downtown Commercial Office Space",
+  "limit": "5.932392M",
+  "mortgageAmount": "$4181350"
+},
+{
+  "description": "Retail Store with Storage",
+  "limit": "5.771103M",
+  "mortgageAmount": "$4637847"
+},
+{
+  "description": "Shopping Mall",
+  "limit": "5766494",
+  "mortgageAmount": "4766.797K"
+},
+{
+  "description": "Shopping Mall",
+  "limit": "$2260632",
+  "mortgageAmount": "1442.59K"
+}
 ]

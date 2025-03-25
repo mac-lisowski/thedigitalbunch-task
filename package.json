@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "tsc --build --clean && tsc --build",
+    "build": "tsc --build --clean && tsc --build && cp -r src/data dist/data",
     "dev": "node --loader ts-node/esm --no-warnings --experimental-specifier-resolution=node src/index.ts",
     "start": "node dist/index.js",
     "format": "prettier --write \"src/**/*.ts\"",
@@ -19,7 +19,9 @@
   "devDependencies": {
     "@faker-js/faker": "^9.6.0",
     "@types/jest": "^29.5.12",
+    "@types/json-stream": "^1.0.3",
     "@types/node": "^22.13.13",
+    "@types/redis": "^4.0.10",
     "@typescript-eslint/eslint-plugin": "^7.3.1",
     "@typescript-eslint/parser": "^7.3.1",
     "eslint": "^8.57.0",
@@ -36,7 +38,11 @@
     "npm": ">=10.0.0"
   },
   "dependencies": {
+    "axios": "^1.8.4",
+    "csv-writer": "^1.6.0",
     "dotenv": "^16.4.7",
-    "mongoose": "^8.13.0"
+    "json-stream": "^1.0.0",
+    "mongoose": "^8.13.0",
+    "redis": "^4.7.0"
   }
 }
