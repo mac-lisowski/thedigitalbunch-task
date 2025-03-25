@@ -15,8 +15,8 @@ A Node.js application for processing data using Large Language Models (LLM).
 
 ## Getting Started
 
-### 1. Start the Database
-Launch MongoDB using Docker Compose:
+### 1. Start the Redis
+Launch Redis using Docker Compose:
 ```bash
 docker compose up -d
 ```
