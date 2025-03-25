@@ -1,0 +1,193 @@
+List 1 Description,List 2 Description,Status,Details
+Multi-unit Residential Complex,Apartment Building Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Marina Facility,Coastal Boating Center,Match,"80% confidence: ** Both properties serve similar functions related to boating, indicating a strong similarity. Limits: Two million Dollars/1598.261K, Mortgages: Four million Dollars/1212708"
+Shopping Mall,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence.
+Downtown Commercial Office Space,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Downtown Commercial Office Space,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Golf Course Clubhouse,Coastal Boating Center,Similar Match,"45% confidence: [Both properties are related to leisure but serve different specific functions; one is a clubhouse and the other a boating center.] Limits: 629293/1598.261K, Mortgages: 452894/1212708"
+Industrial Warehouse,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Shopping Mall,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence.
+Industrial Warehouse,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Gardens and Recreation Area,Parks and Playground Areas,Match,"100% confidence: Property A and Property B both describe recreational areas, with Property A being a gardens and recreation area and Property B being a parks and playground areas. They serve similar purposes and are closely related. Limits: Two million Dollars/5.534903M, Mortgages: Two million Dollars/Three million Dollars"
+Gardens and Recreation Area,Parks and Playground Areas,Match,"100% confidence: Property A and Property B both describe recreational areas, with Property A being a gardens and recreation area and Property B being a parks and playground areas. They serve similar purposes and are closely related. Limits: 1377.797K/5.534903M, Mortgages: $1146370/Three million Dollars"
+Marina Facility,Coastal Boating Center,Match,"80% confidence: ** Both properties serve similar functions related to boating, indicating a strong similarity. Limits: $5673682/1598.261K, Mortgages: $3545831/1212708"
+Medical Office Building,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Waterfront Vacation Property,Coastal Boating Center,Similar Match,"70% confidence: [Both properties are related to leisure and recreation; however, one is a vacation property and the other is a boating center. They share some commonality but are still distinct.] Limits: 5430.78K/1598.261K, Mortgages: Two million Dollars/1212708"
+Marina Facility,Coastal Boating Center,Match,"80% confidence: ** Both properties serve similar functions related to boating, indicating a strong similarity. Limits: 3807810/1598.261K, Mortgages: 3172.574K/1212708"
+Shopping Mall,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence.
+Multi-unit Residential Complex,Apartment Building Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Multi-unit Residential Complex,Apartment Building Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Shopping Mall,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence.
+Shopping Mall,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence.
+Industrial Warehouse,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Single Family Home with 2 bedrooms and 2 bathrooms,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence.
+Industrial Warehouse,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Waterfront Vacation Property,Coastal Boating Center,Similar Match,"70% confidence: [Both properties are related to leisure and recreation; however, one is a vacation property and the other is a boating center. They share some commonality but are still distinct.] Limits: Two million Dollars/1598.261K, Mortgages: Four million Dollars/1212708"
+Shopping Mall,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence.
+Downtown Commercial Office Space,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Gardens and Recreation Area,Parks and Playground Areas,Match,"100% confidence: Property A and Property B both describe recreational areas, with Property A being a gardens and recreation area and Property B being a parks and playground areas. They serve similar purposes and are closely related. Limits: $5362756/5.534903M, Mortgages: 4057779/Three million Dollars"
+Retail Store with Storage,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Industrial Warehouse,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Single Family Home with 4 bedrooms and 3 bathrooms,Single Family Residence - 4BR/3BA,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Medical Office Building,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Downtown Commercial Office Space,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Single Family Home with 4 bedrooms and 2 bathrooms,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence.
+Retail Store with Storage,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Waterfront Vacation Property,Coastal Boating Center,Similar Match,"70% confidence: [Both properties are related to leisure and recreation; however, one is a vacation property and the other is a boating center. They share some commonality but are still distinct.] Limits: 4.072763M/1598.261K, Mortgages: $3074850/1212708"
+Retail Store with Storage,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Medical Office Building,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Waterfront Vacation Property,Coastal Boating Center,Similar Match,"70% confidence: [Both properties are related to leisure and recreation; however, one is a vacation property and the other is a boating center. They share some commonality but are still distinct.] Limits: 2160.364K/1598.261K, Mortgages: 1563437/1212708"
+Medical Office Building,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Retail Store with Storage,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Multi-unit Residential Complex,Apartment Building Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Industrial Warehouse,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Golf Course Clubhouse,Coastal Boating Center,Similar Match,"45% confidence: [Both properties are related to leisure but serve different specific functions; one is a clubhouse and the other a boating center.] Limits: $513738/1598.261K, Mortgages: $389719/1212708"
+Single Family Home with 1 bedrooms and 1 bathrooms,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence.
+Marina Facility,Coastal Boating Center,Match,"80% confidence: ** Both properties serve similar functions related to boating, indicating a strong similarity. Limits: 1759.998K/1598.261K, Mortgages: 1.128057M/1212708"
+Industrial Warehouse,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Gardens and Recreation Area,Parks and Playground Areas,Match,"100% confidence: Property A and Property B both describe recreational areas, with Property A being a gardens and recreation area and Property B being a parks and playground areas. They serve similar purposes and are closely related. Limits: 1752230/5.534903M, Mortgages: 1412809/Three million Dollars"
+Downtown Commercial Office Space,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Waterfront Vacation Property,Coastal Boating Center,Similar Match,"70% confidence: [Both properties are related to leisure and recreation; however, one is a vacation property and the other is a boating center. They share some commonality but are still distinct.] Limits: 2298285/1598.261K, Mortgages: 1.790766M/1212708"
+Retail Store with Storage,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Retail Store with Storage,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Historic Restaurant Building,Vintage Dining Establishment,Match,"100% confidence: ** Both properties describe the same dining establishment. Limits: 4896074/5.020787M, Mortgages: 4089.131K/$4138421"
+Historic Restaurant Building,Vintage Dining Establishment,Match,"100% confidence: ** Both properties describe the same dining establishment. Limits: 4778.482K/5.020787M, Mortgages: $4145614/$4138421"
+Gardens and Recreation Area,Parks and Playground Areas,Match,"100% confidence: Property A and Property B both describe recreational areas, with Property A being a gardens and recreation area and Property B being a parks and playground areas. They serve similar purposes and are closely related. Limits: 2.36124M/5.534903M, Mortgages: 1.79297M/Three million Dollars"
+Historic Restaurant Building,Vintage Dining Establishment,Match,"100% confidence: ** Both properties describe the same dining establishment. Limits: Two million Dollars/5.020787M, Mortgages: 2218.418K/$4138421"
+Single Family Home with 5 bedrooms and 3 bathrooms,Single Family Residence - 4BR/3BA,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Gardens and Recreation Area,Parks and Playground Areas,Match,"100% confidence: Property A and Property B both describe recreational areas, with Property A being a gardens and recreation area and Property B being a parks and playground areas. They serve similar purposes and are closely related. Limits: 2741867/5.534903M, Mortgages: 2423856/Three million Dollars"
+Historic Restaurant Building,Vintage Dining Establishment,Match,"100% confidence: ** Both properties describe the same dining establishment. Limits: 5643310/5.020787M, Mortgages: 3935303/$4138421"
+Marina Facility,Coastal Boating Center,Match,"80% confidence: ** Both properties serve similar functions related to boating, indicating a strong similarity. Limits: 5118.012K/1598.261K, Mortgages: 4.231748M/1212708"
+Historic Restaurant Building,Vintage Dining Establishment,Match,"100% confidence: ** Both properties describe the same dining establishment. Limits: 5.952632M/5.020787M, Mortgages: 4500062/$4138421"
+Golf Course Clubhouse,Coastal Boating Center,Similar Match,"45% confidence: [Both properties are related to leisure but serve different specific functions; one is a clubhouse and the other a boating center.] Limits: Four million Dollars/1598.261K, Mortgages: 2970.945K/1212708"
+Retail Store with Storage,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Retail Store with Storage,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Medical Office Building,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Gardens and Recreation Area,Parks and Playground Areas,Match,"100% confidence: Property A and Property B both describe recreational areas, with Property A being a gardens and recreation area and Property B being a parks and playground areas. They serve similar purposes and are closely related. Limits: Four million Dollars/5.534903M, Mortgages: One million Dollars/Three million Dollars"
+Waterfront Vacation Property,Coastal Boating Center,Similar Match,"70% confidence: [Both properties are related to leisure and recreation; however, one is a vacation property and the other is a boating center. They share some commonality but are still distinct.] Limits: Three million Dollars/1598.261K, Mortgages: Four million Dollars/1212708"
+Golf Course Clubhouse,Coastal Boating Center,Similar Match,"45% confidence: [Both properties are related to leisure but serve different specific functions; one is a clubhouse and the other a boating center.] Limits: Two million Dollars/1598.261K, Mortgages: $4062994/1212708"
+Gardens and Recreation Area,Parks and Playground Areas,Match,"100% confidence: Property A and Property B both describe recreational areas, with Property A being a gardens and recreation area and Property B being a parks and playground areas. They serve similar purposes and are closely related. Limits: 3.408508M/5.534903M, Mortgages: Two million Dollars/Three million Dollars"
+Shopping Mall,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence.
+Medical Office Building,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Downtown Commercial Office Space,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Multi-unit Residential Complex,Apartment Building Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Industrial Warehouse,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Gardens and Recreation Area,Parks and Playground Areas,Match,"100% confidence: Property A and Property B both describe recreational areas, with Property A being a gardens and recreation area and Property B being a parks and playground areas. They serve similar purposes and are closely related. Limits: $4591785/5.534903M, Mortgages: 3.922091M/Three million Dollars"
+Shopping Mall,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence.
+Downtown Commercial Office Space,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Gardens and Recreation Area,Parks and Playground Areas,Match,"100% confidence: Property A and Property B both describe recreational areas, with Property A being a gardens and recreation area and Property B being a parks and playground areas. They serve similar purposes and are closely related. Limits: 4.243152M/5.534903M, Mortgages: 2777654/Three million Dollars"
+Gardens and Recreation Area,Parks and Playground Areas,Match,"100% confidence: Property A and Property B both describe recreational areas, with Property A being a gardens and recreation area and Property B being a parks and playground areas. They serve similar purposes and are closely related. Limits: One million Dollars/5.534903M, Mortgages: 2.028785M/Three million Dollars"
+Industrial Warehouse,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Marina Facility,Coastal Boating Center,Match,"80% confidence: ** Both properties serve similar functions related to boating, indicating a strong similarity. Limits: 1598261/1598.261K, Mortgages: $1212708/1212708"
+Single Family Home with 3 bedrooms and 2 bathrooms,Single Family Residence - 3BR/2BA,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Industrial Warehouse,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Downtown Commercial Office Space,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Industrial Warehouse,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Single Family Home with 5 bedrooms and 2 bathrooms,Single Family Residence - 5BR/3BA,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Marina Facility,Coastal Boating Center,Match,"80% confidence: ** Both properties serve similar functions related to boating, indicating a strong similarity. Limits: 3.493466M/1598.261K, Mortgages: 2485.28K/1212708"
+Industrial Warehouse,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Historic Restaurant Building,Vintage Dining Establishment,Match,"100% confidence: ** Both properties describe the same dining establishment. Limits: Three million Dollars/5.020787M, Mortgages: $1692116/$4138421"
+Industrial Warehouse,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Industrial Warehouse,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Historic Restaurant Building,Vintage Dining Establishment,Match,"100% confidence: ** Both properties describe the same dining establishment. Limits: 5671.91K/5.020787M, Mortgages: $3548550/$4138421"
+Single Family Home with 2 bedrooms and 3 bathrooms,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence.
+Downtown Commercial Office Space,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Medical Office Building,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Golf Course Clubhouse,Coastal Boating Center,Similar Match,"45% confidence: [Both properties are related to leisure but serve different specific functions; one is a clubhouse and the other a boating center.] Limits: $5907224/1598.261K, Mortgages: 5027.965K/1212708"
+Marina Facility,Coastal Boating Center,Match,"80% confidence: ** Both properties serve similar functions related to boating, indicating a strong similarity. Limits: 2465676/1598.261K, Mortgages: Two million Dollars/1212708"
+Multi-unit Residential Complex,Apartment Building Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Multi-unit Residential Complex,Apartment Building Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Industrial Warehouse,Retail Storefront with Warehouse,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+Downtown Commercial Office Space,Downtown Office Complex,Mismatch,No corresponding property found with sufficient confidence. Best match had 0% confidence.
+,Downtown Office Complex,Mismatch,No corresponding property found
+,Downtown Office Complex,Mismatch,No corresponding property found
+,Apartment Building Complex,Mismatch,No corresponding property found
+,Retail Storefront with Warehouse,Mismatch,No corresponding property found
+,Parks and Playground Areas,Mismatch,No corresponding property found
+,Vintage Dining Establishment,Mismatch,No corresponding property found
+,Large Storage Facility,Mismatch,No corresponding property found
+,Large Storage Facility,Mismatch,No corresponding property found
+,Downtown Office Complex,Mismatch,No corresponding property found
+,Parks and Playground Areas,Mismatch,No corresponding property found
+,Single Family Residence - 4BR/3BA,Mismatch,No corresponding property found
+,Downtown Office Complex,Mismatch,No corresponding property found
+,Vintage Dining Establishment,Mismatch,No corresponding property found
+,Single Family Residence - 3BR/2BA,Mismatch,No corresponding property found
+,Healthcare Office Space,Mismatch,No corresponding property found
+,Single Family Residence - 5BR/3BA,Mismatch,No corresponding property found
+,Large Storage Facility,Mismatch,No corresponding property found
+,Downtown Office Complex,Mismatch,No corresponding property found
+,Large Storage Facility,Mismatch,No corresponding property found
+,Downtown Office Complex,Mismatch,No corresponding property found
+,Retail Shopping Center,Mismatch,No corresponding property found
+,Vintage Dining Establishment,Mismatch,No corresponding property found
+,Large Storage Facility,Mismatch,No corresponding property found
+,Coastal Boating Center,Mismatch,No corresponding property found
+,Single Family Residence - 5BR/2BA,Mismatch,No corresponding property found
+,Beachfront Holiday Property,Mismatch,No corresponding property found
+,Parks and Playground Areas,Mismatch,No corresponding property found
+,Coastal Boating Center,Mismatch,No corresponding property found
+,Retail Storefront with Warehouse,Mismatch,No corresponding property found
+,Large Storage Facility,Mismatch,No corresponding property found
+,Healthcare Office Space,Mismatch,No corresponding property found
+,Vintage Dining Establishment,Mismatch,No corresponding property found
+,Beachfront Holiday Property,Mismatch,No corresponding property found
+,Healthcare Office Space,Mismatch,No corresponding property found
+,Healthcare Office Space,Mismatch,No corresponding property found
+,Large Storage Facility,Mismatch,No corresponding property found
+,Retail Storefront with Warehouse,Mismatch,No corresponding property found
+,Coastal Boating Center,Mismatch,No corresponding property found
+,Parks and Playground Areas,Mismatch,No corresponding property found
+,Apartment Building Complex,Mismatch,No corresponding property found
+,Retail Shopping Center,Mismatch,No corresponding property found
+,Beachfront Holiday Property,Mismatch,No corresponding property found
+,Single Family Residence - 2BR/3BA,Mismatch,No corresponding property found
+,Large Storage Facility,Mismatch,No corresponding property found
+,Country Club Pavilion,Mismatch,No corresponding property found
+,Downtown Office Complex,Mismatch,No corresponding property found
+,Country Club Pavilion,Mismatch,No corresponding property found
+,Apartment Building Complex,Mismatch,No corresponding property found
+,Healthcare Office Space,Mismatch,No corresponding property found
+,Retail Shopping Center,Mismatch,No corresponding property found
+,Country Club Pavilion,Mismatch,No corresponding property found
+,Healthcare Office Space,Mismatch,No corresponding property found
+,Large Storage Facility,Mismatch,No corresponding property found
+,Large Storage Facility,Mismatch,No corresponding property found
+,Apartment Building Complex,Mismatch,No corresponding property found
+,Apartment Building Complex,Mismatch,No corresponding property found
+,Large Storage Facility,Mismatch,No corresponding property found
+,Large Storage Facility,Mismatch,No corresponding property found
+,Beachfront Holiday Property,Mismatch,No corresponding property found
+,Downtown Office Complex,Mismatch,No corresponding property found
+,Retail Storefront with Warehouse,Mismatch,No corresponding property found
+,Retail Shopping Center,Mismatch,No corresponding property found
+,Parks and Playground Areas,Mismatch,No corresponding property found
+,Coastal Boating Center,Mismatch,No corresponding property found
+,Retail Storefront with Warehouse,Mismatch,No corresponding property found
+,Retail Shopping Center,Mismatch,No corresponding property found
+,Country Club Pavilion,Mismatch,No corresponding property found
+,Parks and Playground Areas,Mismatch,No corresponding property found
+,Single Family Residence - 5BR/3BA,Mismatch,No corresponding property found
+,Retail Storefront with Warehouse,Mismatch,No corresponding property found
+,Large Storage Facility,Mismatch,No corresponding property found
+,Vintage Dining Establishment,Mismatch,No corresponding property found
+,Parks and Playground Areas,Mismatch,No corresponding property found
+,Country Club Pavilion,Mismatch,No corresponding property found
+,Coastal Boating Center,Mismatch,No corresponding property found
+,Retail Storefront with Warehouse,Mismatch,No corresponding property found
+,Retail Storefront with Warehouse,Mismatch,No corresponding property found
+,Large Storage Facility,Mismatch,No corresponding property found
+,Healthcare Office Space,Mismatch,No corresponding property found
+,Beachfront Holiday Property,Mismatch,No corresponding property found
+,Vintage Dining Establishment,Mismatch,No corresponding property found
+,Apartment Building Complex,Mismatch,No corresponding property found
+,Parks and Playground Areas,Mismatch,No corresponding property found
+,Single Family Residence - 4BR/1BA,Mismatch,No corresponding property found
+,Retail Shopping Center,Mismatch,No corresponding property found
+,Coastal Boating Center,Mismatch,No corresponding property found
+,Retail Shopping Center,Mismatch,No corresponding property found
+,Coastal Boating Center,Mismatch,No corresponding property found
+,Downtown Office Complex,Mismatch,No corresponding property found
+,Parks and Playground Areas,Mismatch,No corresponding property found
+,Single Family Residence - 1BR/1BA,Mismatch,No corresponding property found
+,Apartment Building Complex,Mismatch,No corresponding property found
