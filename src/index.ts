@@ -36,7 +36,9 @@ async function reconcileLists(list1File: string, list2File: string): Promise<voi
         loadJSONStream(list2File),
     ]);
 
-    console.info(`Loaded ${list1.length} list1 and ${list2.length} list2`);
+    if (process.env.DEBUG === 'true') {
+        console.info(`Loaded ${list1.length} list1 and ${list2.length} list2`);
+    }
 
     const report: ReportEntry[] = [];
     const matchedPolicies = new Set<Property>();
@@ -67,7 +69,9 @@ async function reconcileLists(list1File: string, list2File: string): Promise<voi
 
     // Process batches concurrently
     await Promise.all(workerPromises);
-    console.info('All batches processed');
+    if (process.env.DEBUG === 'true') {
+        console.info('All batches processed');
+    }
 
     // Handle unmatched policies
     for (let i = 0; i < list2.length; i++) {

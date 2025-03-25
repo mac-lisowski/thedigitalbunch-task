@@ -169,10 +169,14 @@ function parseArgs(): { count: number } {
 }
 
 // Run
-console.log('Generating files...');
+if (process.env.DEBUG === 'true') {
+    console.log('Generating files...');
+}
 const list1Path = path.join(dataDir, 'list1.json');
 const list2Path = path.join(dataDir, 'list2.json');
 const { count } = parseArgs();
-console.log(`Generating ${count} entries...`);
+if (process.env.DEBUG === 'true') {
+    console.log(`Generating ${count} entries...`);
+}
 generatePairedLargeJsonFiles(list1Path, list2Path, count, 0.7);
 console.log(`Files generated: ${list1Path}, ${list2Path}`);

@@ -34,7 +34,9 @@ export async function loadJSONStream(filePath: string): Promise<Property[]> {
 
         // Cleanup on stream end
         pipeline.on('end', () => {
-            console.log(`Successfully loaded ${items.length} items from ${filePath}`);
+            if (process.env.DEBUG === 'true') {
+                console.log(`Successfully loaded ${items.length} items from ${filePath}`);
+            }
             resolve(items);
         });
     });
